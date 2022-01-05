@@ -26,3 +26,4 @@ with DAG(dag_id='parallel_dag', schedule_interval='0 0 * * *', default_args=defa
 
     tasks >> task_4 >> task_5 >> task_6
         
+    # TEST
